@@ -1,0 +1,293 @@
+.body{
+    background:#aaaaaa;
+    color:#333;
+ font-family:Helvetica Neue;
+ font-size:.95em;
+/*    padding:10px;*/
+}
+#wrapleft{
+    display:inline-block;
+    float:left;
+    width:1%;
+}
+#wrapright{
+    float:right;
+    width:1%;
+}
+#wrap{
+    background:#ffffff;
+/*    width:98%;*/
+    max-width:960px;
+    min-width:600px;
+    margin:auto;
+    vertical-align:middle;
+/*    position:relative;*/
+}
+.headstrip{
+    box-sizing:border-box;
+    width:100%;
+    height:200px;
+    min-width: 600px;
+    margin:auto;
+    background-image: url(../headstrip.jpg);
+    background-size: cover;
+
+    /*background-position: 50% 50%;*/
+    /*background-color:#99cc00;/*:#424870;*/
+    /*color:#003366;*/
+    border:25px solid #003366;/*#424870;*/
+    padding: 10px;
+    /*display: inline-block;
+    vertical-align:middle;*/
+}
+
+.cvphoto{
+    box-sizing:border-box;
+    height:100%;
+    margin:auto;
+    background-image: url(../Main_files/webportrait.jpg);
+    background-size: cover;
+
+    /*background-position: 50% 50%;*/
+    /*background-color:#99cc00;/*:#424870;*/
+    /*color:#003366;*/
+    border:5px solid #000;/*#424870;*/
+    padding: 10px;
+    /*display: inline-block;
+    vertical-align:middle;*/
+}
+
+
+.block{
+    box-sizing:border-box;
+    padding:25px;
+    width:100%;
+    min-width:600px;
+    margin:auto;
+    border: 25px
+		solid;
+    display: inline-block;
+}
+#overview{border:25px solid #fbdf3e;  }
+#publications{border:25px solid #660066;}
+#CV{border:25px solid #d52b1e}
+#corona{border:25px solid black;}    
+#bibliography{border:25px solid #660066;}
+#teaching{border:25px solid #589281;}
+#faq{border:25px solid #00a0dd;}    
+  /* * * * * * * * * * * * * * * */
+ /*  set standard environments  */
+/* * * * * * * * * * * * * * * */
+
+/* HEADERS */
+
+h1 {
+    color: #003366;
+    font-weight:normal;
+    margin:0px;
+    letter-spacing:8px;
+}
+
+h2 {
+    color: #003366;
+    font-weight:normal;
+    margin:0px;
+    letter-spacing:8px;
+}
+
+table.cv td:nth-child(n+1){
+    vertical-align:top;
+    padding:5px;
+    text-align:left;    
+}
+
+table.cv td:nth-child(1){
+    width:10%;
+    color:#003366;
+    vertical-align:top;
+    padding:5px;
+    text-align:right;
+    text-transform: uppercase;
+}
+
+table.teaching td:nth-child(n+1){
+    vertical-align:top;
+    padding:5px;
+    text-align:left;
+    width:fit-content;
+}
+
+table.teaching td:nth-child(1){
+    width:20%;
+    color:#003366;
+    vertical-align:top;
+    padding:5px;
+    text-align:right;
+    text-transform: uppercase;
+}
+
+
+table.language td:nth-child(n+1){
+    vertical-align:top;
+    padding:0px;
+    text-align:left;
+    color:#d52b1e;
+}
+
+table.language td:nth-child(1){
+    vertical-align:top;
+    padding:0px;
+    text-align:left;
+    text-transform:none;
+    color:#000;
+    padding-right:1ex;
+}
+
+
+
+/* table ca */
+
+.ca{
+    width:100%
+}
+
+table.ca td{
+    vertical-align:middle;
+    padding:1ex;
+    text-align:center;
+    font-size:100%;
+}
+
+#materiallink{
+    width:20%;
+   background-color:#9adede;
+   vertical-align:middle;
+   padding:1ex;
+   text-align:center;
+   font-size:100%;
+}
+
+
+table.ca th{
+
+    vertical-align:middle;
+    padding:2ex;
+    background-color:#1e5151;
+    color:#ffffff;
+    font-weight:normal;
+}
+
+.videodiv{
+    margin:auto;
+    width:75%;
+    height: 100%;
+    border: 5px solid #1e5151;
+}
+
+.first-half {
+    float: left;
+    width: 50%;
+}
+.second-half {
+    float: right;
+    width: 50%;
+}
+
+
+
+/* links */
+a {
+    text-decoration:none;
+}
+
+a:link{
+    color:#000;/*#ee8800*/
+}
+a:visited{
+    color:#606060;/*#33aa66;*/
+}
+a:hover{
+    color:#d52b1e;/*#ee8800*/
+}
+a:active{
+    color:#fa5d4f;
+}
+
+#neon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background: #031628; 
+}
+
+.btn {
+  border: 0;
+  background-color: transparent;
+  padding: 5px 10px;
+  font-weight: 300;
+  color: #003366;
+}
+
+
+.btn:hover {
+  color: black;
+  border: 0;
+}
+
+
+
+.one:hover {
+    background-color:#ffffff;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  box-shadow: 10px 10px 99px 6pxrgba(255,255,255,1); 
+}
+
+.two:hover {
+    background-color:#ffffff;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  box-shadow: 10px 10px 99px 6pxrgba(255,255,255,1); 
+}
+.three:hover {
+    background-color:#ffffff;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  box-shadow: 10px 10px 99px 6pxrgba(255,255,255,1); 
+}
+/*#b9e769;
+rgba(185, 231, 105, 1);*/
+.one::before {
+    content:"Prof. Alexandru Constantinescu";
+}
+.one:hover:before {
+  content:"aconstant@math.fu-berlin.de";
+}
+
+.two::before {
+    content:"Theresa Graeber";
+}
+.two:hover:before {
+  content:"theresa.graeber@fu-berlin.de";
+}
+
+.three::before {
+    content:"Ferry Saavedra";
+}
+.three:hover:before {
+  content:"ferry.saavedra@fu-berlin.de";
+}
+
+#mic{
+    line-height:20%;
+}
+
+.papertitle{
+    font-style:italic;/*oblique*/
+}
+    
+.header3{
+    color:#003366;
+    text-transform:uppercase
+}
