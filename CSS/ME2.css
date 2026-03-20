@@ -1,0 +1,306 @@
+.body{
+ background:#aaaaaa;
+    font-family:Nexus Sans;
+/*    padding:10px;*/
+}
+#wrapleft{
+    display:inline-block;
+    float:left;
+    width:1%;
+}
+#wrapright{
+    float:right;
+    width:1%;
+}
+#wrap{
+    background:#ffffff;
+/*    width:98%;*/
+    max-width:960px;1
+    min-width:600px;
+    margin:auto;
+    vertical-align:middle;
+/*    position:relative;*/
+}
+.headstrip{
+    box-sizing:border-box;
+    width:100%;
+    min-width:600px;
+    margin:auto;
+    background-color:#99cc00;/*#003366;*/
+    color:#003366;
+    border:25px solid #003366;/*#424870;*/
+    padding: 10px;
+    display: inline-block;
+    vertical-align:middle;
+}
+.block{
+    box-sizing:border-box;
+    padding:25px;
+    width:100%;
+    min-width:600px;
+    margin:auto;
+    border: 25px
+		solid;
+    display: inline-block;
+}
+#schedule{border:25px solid #efcf0f;}    
+#news{border:25px solid #d52b1e}
+#material{border:25px solid #1e5151;}
+#corona{border:25px solid black;}    
+#bibliography{border:25px solid #660066;}
+#exam{border:25px solid #ea890f;}
+#faq{border:25px solid  #C5D2E4;  }
+  /* * * * * * * * * * * * * * * */
+ /*  set standard environments  */
+/* * * * * * * * * * * * * * * */
+
+.videodiv{
+    margin:auto;
+    width:75%;
+    height: 100%;
+    border: 5px solid #1e5151;
+}
+
+/* HEADERS */
+
+h1 {
+    color: #003366;
+    font-weight:normal;
+    margin:0px;
+    letter-spacing:8px;
+    text-align: center;
+}
+
+h2 {
+    color: #003366;
+    font-weight:normal;
+    margin:0px;
+    letter-spacing:8px;    
+}
+
+/* font classes */
+
+font.video {
+    background-color: #003366;
+    padding:2pt;
+    font-family:Courier;
+    color:#ffffff;
+}
+/* table punkten */
+/* table examinfo */
+table.examinfo td:nth-child(n+1){
+    vertical-align:top;
+    padding:.7ex;
+    text-align:left;
+} 
+
+table.examinfo td:nth-child(1){
+    vertical-align:top;
+    padding:.7ex;
+    text-align:right;
+    font-family:helvetica;
+    color:#000000;
+}
+
+/* table timetable */
+table.timetable td:nth-child(n+1){
+    vertical-align:top;
+    padding:1ex;
+    text-align:left;    
+}
+
+table.timetable td:nth-child(1){
+    color:#003366;
+    vertical-align:top;
+    padding:1ex;
+    text-align:right;
+}
+/* table la */
+table.la td{
+    vertical-align:top;
+    padding:1ex;
+    text-align:left;
+    
+}
+table.la th{
+    width:16.5%;
+    vertical-align:top;
+    padding:2ex;
+    background-color:#333333;
+    color:#ffffff;
+}
+
+table.calendar td{
+    vertical-align:top;
+    padding:.3ex;
+    text-align:center;
+    background-color:#aaeeff;
+    
+}
+table.calendar th{
+    vertical-align:top;
+    padding:1ex;
+    background-color:#00a0dd;
+    color:#ffffff;
+}
+
+
+table.newstable td:nth-child(1) {
+    vertical-align:top;
+    font-family:Courier;
+    padding:1ex;
+    color:#003366;
+}
+table.newstable td:nth-child(2) {
+    vertical-align:top;
+    padding:1ex;
+}
+
+/* table ca */
+table.ca td{
+    vertical-align:top;
+    padding:1ex;
+    text-align:center;
+    font-size:100%;
+}
+
+table.ca th{
+    width:16.5%;
+    vertical-align:top;
+    padding:2ex;
+    background-color:#1e5151;
+    color:#ffffff;
+    font-weight:normal;
+}
+
+
+
+
+/* links */
+a {
+    text-decoration:none;
+}
+  
+a.whiteboard:link{ color:#ffffff;}
+a.whiteboard:visited{ color:#808080;/*#33aa66;*/}
+a.whiteboard:hover{ color:#d52b1e;/*#ee8800*/}
+a.whiteboard:active{ color:#fa5d4f;}
+
+
+a:link{
+    color:#003366;/*#ee8800*/
+}
+a:visited{
+    color:#005599;/*#33aa66;*/
+}
+a:hover{
+    color:#d52b1e;/*#ee8800*/
+}
+a:active{
+    color:#fa5d4f;
+}
+
+
+
+#neon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background: #031628; 
+}
+
+.btn {
+  border: 0;
+  background-color: transparent;
+  padding: 5px 10px;
+  font-weight: 300;
+  color: #003366;
+}
+
+
+.btn:hover {
+  color: black;
+  border: 0;
+}
+
+
+
+.one:hover {
+    background-color:#a8e000;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(256,256,255,1);
+  box-shadow: 10px 10px 99px 6px rgba(256,256,256,1); 
+}
+
+.two:hover {
+    background-color:#a8e000;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  box-shadow: 10px 10px 99px 6px rgba(255,255,255,1); 
+}
+.three:hover {
+    background-color:#99cc00;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(99,156,0,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(99,156,0,1);
+  box-shadow: 10px 10px 99px 6px rgba(99,156,0,1); 
+}
+.four:hover {
+    background-color:#99cc00;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(99,156,0,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(99,156,0,1);
+  box-shadow: 10px 10px 99px 6px rgba(99,156,0,1); 
+}
+ .five:hover {
+    background-color:#99cc00;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(99,156,0,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(99,156,0,1);
+  box-shadow: 10px 10px 99px 6px rgba(99,156,0,1); 
+ }
+/*#b9e769;
+rgba(185, 231, 105, 1);*/
+.one::before {
+    content:"Prof. Alexandru Constantinescu";
+}
+.one:hover:before {
+  content:"aconstant@math.fu-berlin.de";
+}
+
+.two::before {
+    content:"Martin Guenther";
+}
+.two:hover:before {
+  content:"m.guenther@fu-berlin.de";
+}
+
+.three::before {
+    content:"Joshua Roeber";
+}
+.three:hover:before {
+  content:"joshua.roeber@fu-berlin.de";
+}
+.four::before {
+    content:"Georg Sprenger";
+}
+.four:hover:before {
+  content:"georg.sprenger@fu-berlin.de";
+}
+
+
+.videodiv{
+    margin:auto;
+    width:75%;
+    height: 100%;
+    border: 5px solid #1e5151;
+}
+
+.first-half {
+    float: left;
+    width: 50%;
+}
+.second-half {
+    float: right;
+    width: 50%;
+}
+
+

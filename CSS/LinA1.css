@@ -1,0 +1,225 @@
+.body{
+ background:#aaaaaa;
+    font-family:Nexus Sans;
+/*    padding:10px;*/
+}
+#wrapleft{
+    float:left;
+    width:1%;
+}
+#wrapright{
+    float:right;
+    width:1%;
+}
+#wrap{
+    background:#ffffff;
+/*    width:98%;*/
+    max-width:960px;
+    min-width:600px;
+    margin:auto;
+/*    position:relative;*/
+}
+.headstrip{
+    box-sizing:border-box;
+    width:100%;
+    min-width:600px;
+    margin:auto;
+    background-color:#000000;/*:#424870;*/
+    color:#ffffff;
+    border:25px solid #000000;/*#424870;*/
+    padding: 10px;
+    display: inline-block;
+}
+.block{
+    box-sizing:border-box;
+    padding:25px;
+    width:100%;
+    min-width:600px;
+    margin:auto;
+    border: 25px
+		solid;
+    display: inline-block;
+}
+#schedule{border:25px solid #329932;}
+#news{border:25px solid #d52b1e}
+#material{border:25px solid  #ffd700;}
+#corona{border:25px solid black;}    
+#bibliography{border:25px solid #660066;}
+#exam{border:25px solid #ea890f;}
+#faq{border:25px solid #00a0dd;}    
+  /* * * * * * * * * * * * * * * */
+ /*  set standard environments  */
+/* * * * * * * * * * * * * * * */
+
+
+
+/* table punkten */
+/* table examinfo */
+table.examinfo td:nth-child(n+1){
+    vertical-align:top;
+    padding:.7ex;
+    text-align:left;
+} 
+
+table.examinfo td:nth-child(1){
+    vertical-align:top;
+    padding:.7ex;
+    text-align:right;
+}
+
+/* table timetable */
+table.timetable td:nth-child(n+1){
+    vertical-align:top;
+    padding:1ex;
+    text-align:left;    
+}
+
+table.timetable td:nth-child(1){
+    color:#329932;
+    vertical-align:top;
+    padding:1ex;
+    text-align:right;
+}
+/* table la */
+table.la td{
+    vertical-align:top;
+    padding:1ex;
+    text-align:left;
+    
+}
+table.la th{
+    width:16.5%;
+    vertical-align:top;
+    padding:2ex;
+    background-color:#333333;
+    color:#ffffff;
+}
+
+table.calendar td{
+    vertical-align:top;
+    padding:.3ex;
+    text-align:center;
+    background-color:#aaeeff;
+    
+}
+table.calendar th{
+    vertical-align:top;
+    padding:1ex;
+    background-color:#00a0dd;
+    color:#ffffff;
+}
+
+
+table.newstable td:nth-child(1) {
+    vertical-align:top;
+    font-family:Courier;
+    padding:1ex;
+}
+table.newstable td:nth-child(2) {
+    vertical-align:top;
+    padding:1ex;
+}
+
+/* table ca */
+table.ca td{
+    vertical-align:top;
+    padding:1ex;
+    text-align:center;
+    font-size:100%;
+}
+
+table.ca th{
+    width:16.5%;
+    vertical-align:top;
+    padding:2ex;
+    background-color:#ffd700;
+    color:#000000;
+    font-weight:normal;
+}
+
+
+
+
+/* links */
+a {
+    text-decoration:none;
+}
+
+a:link{
+    color:#201eb5;/*#ee8800*/
+}
+a:visited{
+    color:#808080;/*#33aa66;*/
+}
+a:hover{
+    color:#d52b1e;/*#ee8800*/
+}
+a:active{
+    color:#fa5d4f;
+}
+
+#neon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background: #031628; 
+}
+
+.btn {
+  border: 0;
+  background-color: transparent;
+  padding: 5px 10px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+
+.btn:hover {
+  color: black;
+  border: 0;
+}
+
+
+
+.one:hover {
+    background-color:#ffffff;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  box-shadow: 10px 10px 99px 6pxrgba(255,255,255,1); 
+}
+
+.two:hover {
+    background-color:#ffffff;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  box-shadow: 10px 10px 99px 6pxrgba(255,255,255,1); 
+}
+.three:hover {
+    background-color:#ffffff;
+    -webkit-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255,255,255,1);
+  box-shadow: 10px 10px 99px 6pxrgba(255,255,255,1); 
+}
+/*#b9e769;
+rgba(185, 231, 105, 1);*/
+.one::before {
+    content:"Prof. Alexandru Constantinescu";
+}
+.one:hover:before {
+  content:"aconstant@math.fu-berlin.de";
+}
+
+.two::before {
+    content:"Theresa Gräber";
+}
+.two:hover:before {
+  content:"theresa.graeber@fu-berlin.de";
+}
+
+.three::before {
+    content:"Stefanie Hoffmann";
+}
+.three:hover:before {
+  content:"hoffmas93@fu-berlin.de";
+}
