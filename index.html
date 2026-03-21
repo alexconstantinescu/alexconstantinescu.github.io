@@ -16,43 +16,61 @@
     <div id="wrap">
       <div class="headstrip">
       </div>	
+
       
       <div class="block" id="overview">
 	<h2>ALEXANDRU CONSTANTINESCU</h2>
-
 	<div style="float:left;width:65%;" align="left">
 	  <p style="text-align:justify">
 	    <font color="#003366">
 	      <b>Since April 2025 I am an associate professor at the Politecnico di Milano.</b>
 	      <br>
-	      <br>
 	    </font>
-	    <font color="#003366"><b>My research</b></font> is at the intersection of commutative algebra, algebraic geometry, and combinatorics.</p>
-
-	 <p style="text-align:justify">  I completed all of my undergraduate education in Bucharest, my hometown. 	  
+	      <p>
+		<b><font color="#003366">My research</font></b>
+	    is at the intersection of commutative algebra, algebraic geometry, and combinatorics.</p>
+	  
+<p style="text-align:justify">  I completed all of my undergraduate education in Bucharest, my hometown. 	  
 	   In 2005, I moved to Genova, where I pursued my Ph.D. under the guidance of Aldo Conca. Later, I became a part of Elisa Gorla's SNSF research group in Switzerland, then 
 	   I was a postdoc in Klaus Altmann's Algebraic Geometry group in Berlin.
 	   From June 2018 to March 2025 I was a guest professor at the same institue.
-	 For further details, please refer to my <a href="#CV">CV</a>  below.</p>
-
-	  
+	 For further details, please refer to my <a href="#CV">CV</a>  below.</p>	  
 	</div>
-	  <div style="float:right; width:35%;" align="right">
-            <p>Politecnico di Milano<br>
-	      Dipartimento di Matematica<br>
-	      Ed. 14 (Nave), ufficio 225<br>
-	      Via Bonardi 9, 20133 Milano
-            <p >Tel: +39 02 2399 4505</p>
+	<div style="float:right; width:35%;" align="right">
+	  <p>
+	    <font color="#003366">
+	      <b>Contact</b>
+	      <br>
+	    </font>
+	  </p>
+	  <p>
 	    <a href="mailto:alexandru.constantinescu@polimi.it">alexandru.constantinescu "a" polimi.it</a>
+	    <br>
+	    <b> Tel:</b><a href="tel:+390223994505"> +39 02 2399 4505</a></p>
+
+          <p><b>Politecnico di Milano</b><br>
+	    Dipartimento di Matematica<br>
+	    Ed. 14 (Nave), ufficio 225<br>
+	    Via Edoardo Bonardi 9 <br>
+	    20133 Milano<br>
+	    Italy
+      	  
 	  </div>		
 
 	<div style="float:left; width:100%">
 	<br>	
-	  <font size="2"; color="#003366">Latest page update: <span id="lastUpdate"></span></font>
+	<font size="2"; color="#003366">Latest page update: <span id="lastUpdate"></span></font>
 	</div>
 	<script>
-	  document.getElementById("lastUpdate").innerHTML = document.lastModified;
+	  const lastMod = new Date(document.lastModified);
+	  const day = String(lastMod.getDate()).padStart(2, '0');
+	  const month = String(lastMod.getMonth() + 1).padStart(2, '0');
+	  const year = lastMod.getFullYear();
+	  document.getElementById("lastUpdate").innerHTML = `${day}/${month}/${year}`;
 	</script>
+	<!--script>
+	  document.getElementById("lastUpdate").innerHTML = document.lastModified;
+	</script-->
       </div>
       
       <div class="block" id="teaching">
@@ -61,13 +79,12 @@
 	<table class="teaching">
 	  <tr>
 	    <td>Ricevimento:</td>
-	    <td> solo su appuntamento via e-mail  </td>
+	    <td colspan="2"> solo su appuntamento via e-mail  </td>
 	  </tr>
 	  <tr>
 	    <td> 2&deg; semestre 2025/26</td>
+	    <td> nessun corso</td>
 	    <td></td>
-	    <td></td>
-
 	  </tr>
 	  <tr>
 	    <td> 1&deg; semestre 2025/26</td>
@@ -225,7 +242,7 @@
 	  <tr><td></td></tr>	    
 	    <tr>
 	      <td>Publication record</td>
-	      <td colspan="3">  19 published papers, 3 in preparation.</td>
+	      <td colspan="3">  20 published papers, 2 in preparation.</td>
 	    </tr>
 	  <tr>
 	    <td></td>
@@ -300,8 +317,8 @@
 	     <span class="papertitle">
 	       Simplicial Complexes and Matroids with  Vanishing  T<sup>2</sup>
 	     </span>
-	       (<a href="https://arxiv.org/abs/2406.02440">pdf</a>) <br>
-	       <b>The Electronic Journal of Combinatorics</b> to appear (2025)	     
+	     (<a href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v32i2p12/pdf">pdf</a>) <br>
+	     <b>The Electronic Journal of Combinatorics</b> 32 (2), P2.12. (2025)	     
 	  </li>
 
 	  <li> Constantinescu A., Brehm W.,
